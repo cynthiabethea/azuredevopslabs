@@ -1,5 +1,5 @@
 ---
-title: Managing technical debt with SonarQube and Azure DevOps
+title: Managing technical debt with SonarQube Server and Azure DevOps
 layout: page
 sidebar: vsts2
 permalink: /labs/vstsextend/sonarqube/
@@ -20,7 +20,7 @@ Technical debt is the set of problems in a development effort that make forward 
 
 ### What's covered in this lab
 
-In this lab, you will learn how to setup SonarQube on Azure and integrate with Azure DevOps project
+In this lab, you will learn how to setup SonarQube Server on Azure and integrate with Azure DevOps project
 
 - Provision SonarQube server as [Azure Container Instance](https://docs.microsoft.com/en-in/azure/container-instances/) from SonarQube Docker image
 - Setup SonarQube Server project
@@ -61,7 +61,7 @@ In this lab, you will learn how to setup SonarQube on Azure and integrate with A
      
     ![sonarqubeaci](images/sonarqubeaci.png)
 
-   {% include note.html content= "If you would like to setup the SonarQube server in Azure VM using ARM template follow the instruction [here](sonarqube-arm/)" %}
+   {% include note.html content= "If you would like to setup the SonarQube Server in Azure VM using ARM template follow the instruction [here](sonarqube-arm/)" %}
 
 1. Use the [Azure DevOps Demo Generator](https://azuredevopsdemogenerator.azurewebsites.net/?TemplateId=77364&Name=SonarQube){:target="_blank"} to provision a project on your Azure DevOps Organization.
 
@@ -132,7 +132,7 @@ Now that the SonarQube server is running, we will modify Azure Build pipeline to
     
     ![](images/prepare-analysis.png)
 
-   In the **Add SonarQube Server service connection** wizard, enter the SonarQube server URL and SonarQube Server security token details. If you don't have SonarQube Server security token follow [this](https://docs.sonarqube.org/latest/user-guide/user-token/) to create one. And make sure SonarQube Server project name and project key are same as you entered while creating SonarQube Server project in **Exercise 1**. 
+   In the **Add SonarQube Server service connection** wizard, enter the SonarQube server URL and SonarQube Server security token details. If you don't have SonarQube Server security token follow [this](https://docs.sonarsource.com/sonarqube-server/latest/user-guide/managing-tokens/) to create one. And make sure SonarQube Server project name and project key are same as you entered while creating SonarQube Server project in **Exercise 1**. 
    
     ![](images/sonar_endpoint1.png)
 
