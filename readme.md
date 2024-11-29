@@ -169,7 +169,7 @@ description: Learn how you can implement modern DevOps practices with Azure, Azu
 					</div>
 					<div class="col-lg-9 col-md-9 col-sm-9 col-9 cont-mt cont-pl">					
 							<a href="/labs/azuredevops/sonarcloud/" class="text-col-gunpower">	
-								<div class="bg-white text-font">Managing Technical Debt with Azure DevOps and SonarCloud</div>
+								<div class="bg-white text-font">Managing Technical Debt with Azure DevOps and SonarQube Server</div>
 							</a>
 					</div>					
 				</div>
@@ -603,9 +603,9 @@ description: Learn how you can implement modern DevOps practices with Azure, Azu
                                                 <!-- <li class="osslist"> <img src="/images/azure-42.png" height="42" class="icon-bor-p-m" /><a
                                                         href="/labs/vstsextend/azuredevopsprojectdotnet/" class="fon-size-13">
                                                         Azure DevOps Project for .NET</a></li> -->
-                                                <li class="osslist"> <img src="/images/sonarcloud-42.png" height="42"
+                                                <li class="osslist"> <img src="/images/sonarqube-cloud.png" height="42"
                                                         class="icon-bor-p-m" /><a href="/labs/vstsextend/sonarcloud/"
-                                                        class="fon-size-13"> Driving continuous quality of your code with SonarCloud</a></li>
+                                                        class="fon-size-13"> Driving continuous quality of your code with SonarQube Cloud</a></li>
                                                   <li class="osslist"> <img src="/images/parasoft-42.png" height="42"
                                                         class="icon-bor-p-m" /><a href="/labs/vstsextend/parasoft/"
                                                         class="fon-size-13"> Leverage Virtual Services with Parasoft
